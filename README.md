@@ -14,9 +14,11 @@ Preparation
     pyvisa
     ipywidgets
 
-How to use
+## How to use
+
 Hardware:
 - Connect all the instruments to your laptop (Flux gauge: USB-mini, DC power supply, USB-A, Teensy4.0: USB-micro)
+
 Software:
 - proceed the program (shift + Enter) with modifying few variables according to the comment
 - Adjust sensor position that you want to start
