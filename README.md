@@ -13,6 +13,8 @@ Preparation
     pyserial (in command prompt: type "pip install pyserial" or "conda install pyserial")
     pyvisa
     ipywidgets
+    Gaussmeter software: https://drive.google.com/drive/folders/1CqhIzMeMHimEZGLLzxYSF4xN3l3T1qgJ?usp=sharing
+
 
 ## How to use
 
