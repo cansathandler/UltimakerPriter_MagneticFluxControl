@@ -4,7 +4,7 @@ Purpose
 - Create magnetic flux mapping.
 
 Algorism
-- Do scan
+- shift coordinate point. For example, if there is 3x3 inspection area, The coordinate point would be 0,0 >> 0,1 >> 0,2 >> 0,0 >> 0,1 >> 1,1 >> 1,2 >> 0,1 >> 0,2 >> 1,2 >> 2,2
 
 Preparation
 - Install Anaconda or Python text editor with Jupitar notebook extension (e.g. Vistual Studio Code or Cursor)
@@ -16,7 +16,7 @@ Preparation
 
 ## How to use
 
-Hardware:
+Connection to instruments:
 - Connect all the instruments to your laptop (Flux gauge: USB-mini, DC power supply, USB-A, Teensy4.0: USB-micro)
 
 Software:
@@ -24,3 +24,6 @@ Software:
 - proceed the program (shift + Enter) with modifying few variables according to the comment
 - Adjust sensor position that you want to start
 - Enter mapping dimension (x_mesh_size x y_mesh_size)
+
+For your information:
+- Source code for Teensy4.0 (Ultimaker_Printer_Serial_Move)
