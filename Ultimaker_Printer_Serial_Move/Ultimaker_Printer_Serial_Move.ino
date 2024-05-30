@@ -23,11 +23,11 @@ const int zStepPin = 21;      // Z軸 Step pin
 
 const float xStepPerRevolution = 200.0; // X軸モータのステップ数
 const float xMicroSteps = 16.0;         // X軸のマイクロステップ数
-const float xMmPerRevolution = 25.0;     // X軸の1回転あたりの移動距離
+const float xMmPerRevolution = 78.74;     // X軸の1回転あたりの移動距離
 
 const float yStepPerRevolution = 200.0; // Y軸モータのステップ数
 const float yMicroSteps = 16.0;         // Y軸のマイクロステップ数
-const float yMmPerRevolution = 25.0;     // Y軸の1回転あたりの移動距離
+const float yMmPerRevolution = 78.74;     // Y軸の1回転あたりの移動距離
 
 const float zStepPerRevolution = 200.0; // Z軸モータのステップ数
 const float zMicroSteps = 16.0;         // Z軸のマイクロステップ数
