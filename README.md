@@ -9,11 +9,13 @@ Algorism
 Preparation
 - Install Anaconda or Python text editor with Jupitar notebook extension (e.g. Vistual Studio Code or Cursor)
 - Download NI-VISA (https://www.ni.com/en/support/downloads/drivers/download.ni-visa.html#521671)
-- Install 
-    pyserial (in command prompt: type "pip install pyserial" or "conda install pyserial")
-    pyvisa
-    ipywidgets
-    Gaussmeter software: https://drive.google.com/drive/folders/1CqhIzMeMHimEZGLLzxYSF4xN3l3T1qgJ?usp=sharing
+- Install library packages
+    - pyserial (in command prompt: type "pip install pyserial" or "conda install pyserial")
+    - pyvisa
+    - ipywidgets
+    - serial.tools.list_ports
+    - pandas
+- Install Gaussmeter software for debug: https://drive.google.com/drive/folders/1CqhIzMeMHimEZGLLzxYSF4xN3l3T1qgJ?usp=sharing
 
 
 ## How to use
@@ -23,6 +25,9 @@ Connection to instruments:
 
 Software:
 - Dowload the program (MagneticFluxMeasure.ipynb)
+- Find COM port number of DC power supply, gaussmeter, Teensy4.0 using device manager
+- Replace the COM port numbers / VISA recource name in program
+- Decide data saving place in your computer and replace into the program
 - proceed the program (shift + Enter) with modifying few variables according to the comment
 - Adjust sensor position that you want to start
 - Enter mapping dimension (x_mesh_size x y_mesh_size)
