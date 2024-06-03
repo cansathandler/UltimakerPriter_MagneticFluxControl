@@ -13,7 +13,6 @@ Preparation
     - pyserial (in command prompt: type "pip install pyserial" or "conda install pyserial")
     - pyvisa
     - ipywidgets
-    - serial.tools.list_ports
     - pandas
 - Install Gaussmeter software for debug: https://drive.google.com/drive/folders/1CqhIzMeMHimEZGLLzxYSF4xN3l3T1qgJ?usp=sharing
 
